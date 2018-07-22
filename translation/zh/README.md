@@ -21,19 +21,19 @@
 
 ## Table of Contents
 - [Demos](#demos)
-- [Quick start](#quick-start)
-  - [Simplest example: tweening a single element](#simplest-example-tweening-a-single-element)
-  - [More useful: tweening different elements](#more-useful-tweening-different-elements)
-- [The Components](#the-components)
+- [快速入门](#quick-start)
+  - [最简示例: 单元素渐变动画](#simplest-example-tweening-a-single-element)
+  - [实用功能: 多元素渐变动画](#more-useful-tweening-different-elements)
+- [组件介绍](#the-components)
   - [1. `Flipper`](#1-flipper)
     - [Props](#props)
   - [2. `Flipped`](#2-flipped)
-    - [Basic props](#basic-props)
-    - [Callback props](#callback-props)
+    - [基础 props](#basic-props)
+    - [回调 props](#callback-props)
     - [Transform props](#transform-props)
-    - [Advanced props](#advanced-props)
-- [Scale transitions made eas(ier)](#scale-transitions-made-easier)
-- [Library details](#library-details)
+    - [高级 props](#advanced-props)
+- [让大小渐变动画更简单](#scale-transitions-made-easier)
+- [代码库](#library-details)
 - [FAQ](#faq)
 
 ## Demos
@@ -56,22 +56,22 @@
 </a>
 </p>
 
-- [Updating list (`react-flip-move` example clone)](https://literate-fly.surge.sh/flip-move)
-- [Simplest possible example](https://codepen.io/aholachek/pen/oyKJgL)
-- [Guitar shop](https://literate-fly.surge.sh/guitar)
-- [Absurd, overly complex, nested example](https://literate-fly.surge.sh/cards)
+- [更新列表 (`react-flip-move` 示例的对比实现)](https://literate-fly.surge.sh/flip-move)
+- [最简单的例子](https://codepen.io/aholachek/pen/oyKJgL)
+- [吉他网店例子](https://literate-fly.surge.sh/guitar)
+- [单纯为了展示复杂嵌套做的例子](https://literate-fly.surge.sh/cards)
 - [React-flip-toolkit logo](https://codepen.io/aholachek/pen/ERRpEj)
-- [Spring and easing options](https://codepen.io/aholachek/full/bKmZbV/)
+- [Spring 和 easing 参数](https://codepen.io/aholachek/full/bKmZbV/)
 
-## Quick start
+## 快速入门
 
 `npm install react-flip-toolkit`
 
-Wrap your container element with a `Flipper` component that has a `flipKey` prop that changes every time an animation should happen.
+把你的容器元素放到一个`Flipper` 组件中， 让`Flipper`组件的 `flipKey` prop 在每次需要做动画的时候变化.
 
-Wrap elements that should be animated with `Flipped` components that have `flipId` props matching them across renders.
+把你要做动画的元素放在 `Flipped` 组件中， `Flipped` 组件的 `flipId` prop在渲染的过程中始终保持匹配.
 
-### Simplest example: tweening a single element
+### 最简单的例子: 单个元素渐变过度
 
 ```jsx
 import React, { Component } from React;
@@ -101,7 +101,7 @@ class AnimatedSquare extends Component {
 }
 ```
 
-[view on Codepen](https://codepen.io/aholachek/pen/oyKJgL)
+[在 Codepen 中查看](https://codepen.io/aholachek/pen/oyKJgL)
 
 ### More useful: tweening different elements
 
