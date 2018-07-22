@@ -103,9 +103,9 @@ class AnimatedSquare extends Component {
 
 [在 Codepen 中查看](https://codepen.io/aholachek/pen/oyKJgL)
 
-### More useful: tweening different elements
+### 实用功能: 多元素渐变
 
-The power of FLIP lies in smoothly tweening two completely separate elements to appear as if they are one:
+FLIP的亮点在于它能平滑的过度多个完全独立的元素而看起来像是一个动画:
 
 ```jsx
 import React, { Component } from React;
@@ -148,11 +148,11 @@ class AnimatedSquare extends Component {
 [view on Codepen](https://codepen.io/aholachek/pen/qKeLaN)
 
 
-## The Components
+## 组件
 
 ### 1. `Flipper`
 
-The parent wrapper component that contains all the elements to be animated.
+包含所有要做动画元素的包装组件.
 
 ```jsx
 <Flipper flipKey={someKeyThatChanges}>
