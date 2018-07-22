@@ -40,19 +40,19 @@
 
 <p>
 <a href="https://literate-fly.surge.sh/photos">
-  <img src="./example-assets/photogrid.gif" width='600px' alt='an animation showing click to expand a photo' />
+  <img src="../../example-assets/photogrid.gif" width='600px' alt='an animation showing click to expand a photo' />
 </a>
 </p>
 
 <p>
 <a href="https://codepen.io/aholachek/pen/KeevYN">
-  <img src="./example-assets/dropdown.gif" width='600px' alt='a smoothly transitioning menu dropdown' />
+  <img src="../../example-assets/dropdown.gif" width='600px' alt='a smoothly transitioning menu dropdown' />
 </a>
 </p>
 
 <p>
 <a href="https://codepen.io/aholachek/pen/gKjYNw?editors=0110">
-  <img src="./example-assets/sort-filter.gif" width='600px' alt='an animation demoing sort and filter operations' />
+  <img src="../../example-assets/sort-filter.gif" width='600px' alt='an animation demoing sort and filter operations' />
 </a>
 </p>
 
@@ -244,7 +244,7 @@ class AnimatedSquare extends Component {
 一些其他的 FLIP 库只提供了位置渐变, 但[如果你可以同时做大小渐变的话](#demos)事情会变得更有趣.
 
 <a href="https://codepen.io/aholachek/pen/mKXBJR?editors=0110">
-<img src="./example-assets/nested-example.gif" width='600px' alt='an animation demoing nested scale transforms' />
+<img src="../../example-assets/nested-example.gif" width='600px' alt='an animation demoing nested scale transforms' />
 </a>
 
 [在Codepen中查看](https://codepen.io/aholachek/pen/mKXBJR)
