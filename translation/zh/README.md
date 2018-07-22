@@ -105,7 +105,7 @@ class AnimatedSquare extends Component {
 
 ### 实用功能: 多元素渐变
 
-FLIP的亮点在于它能平滑的过度多个完全独立的元素而看起来像是一个动画:
+FLIP的亮点在于它能平滑的过度两个完全独立的元素而看起来像是一个元素在动画:
 
 ```jsx
 import React, { Component } from React;
@@ -145,8 +145,7 @@ class AnimatedSquare extends Component {
   }
 }
 ```
-[view on Codepen](https://codepen.io/aholachek/pen/qKeLaN)
-
+[在Codepen中查看](https://codepen.io/aholachek/pen/qKeLaN)
 
 ## 组件
 
